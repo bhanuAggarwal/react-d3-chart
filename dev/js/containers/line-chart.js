@@ -6,7 +6,7 @@ import {LineChart} from 'react-d3-basic';
 import io from 'socket.io-client';
 import d3Time from 'd3-time';
 
-const socket = io.connect('http://localhost:3030');
+const socket = io.connect('http://172.104.15.135:3030');
 /*
  * We need "if(!this.props.user)" because we set state to null by default
  * */
